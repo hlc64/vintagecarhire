@@ -11,6 +11,9 @@
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <!-- Link to CSS Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  <!-- Font Style -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&display=swap" rel="stylesheet">
 
   <title>Vintage Car Hire</title>
 </head>
@@ -47,8 +50,10 @@
 
   <main>
 
-    <div class="container-fluid">
-      <h1 id="vintagecars">Vintage cars for hire</h1>
+    <div class="container-fluid carListingSection">
+      <h1 id="carListing">Vintage Cars For Hire</h1>
+
+      <!-- Card Layout Starts -->
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col">
           <div class="card w-100 h-100 card-deck text-center">
@@ -58,7 +63,7 @@
               <h5 class="card-title">Chevrolet</h5>
               <p class="card-text">Colloquially referred to as Chevy, this wonderful car will bring happiness to you as
                 you take it on the open road.</p>
-                <a href="#" class="btn btn-primary">Book Now</a>
+              <a href="#" class="btn btn-primary">Book Now</a>
             </div>
           </div>
         </div>
@@ -70,7 +75,7 @@
               <h5 class="card-title">Volkswagen Beetle</h5>
               <p class="card-text">Take this for a spin today, the original 25 hp Beetle was designed for a top speed
                 around 100 km/h.</p>
-                <a href="#" class="btn btn-primary">Book Now</a>
+              <a href="#" class="btn btn-primary">Book Now</a>
             </div>
           </div>
         </div>
@@ -99,7 +104,82 @@
         </div>
       </div>
     </div>
+    <!-- Card Layout Ends -->
+
+    <!-- Enquiries Form -->
+    <div class="container-fluid" id="enquiries">
+      <form>
+        <div>
+          <h4>Enquiries</h4>
+        </div>
+        <div class="mb-3 col-auto">
+          <label for="exampleInputFullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="exampleInputFullName">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Choose a car</option>
+          <option value="1">Chevrolet</option>
+          <option value="2">VW Beetle</option>
+          <option value="3">VW Campervan</option>
+          <option value="4">Chevvy Belair</option>
+        </select>
+        </div>
+        <div class="mb-4">
+          <label for="formControlTextArea" class="form-label">Comments</label>
+          <textarea class="form-control" id="formControlTextArea" rows="3"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Enquiries end. -->
+
+    <!-- Contact Information -->
+    <div class="container-fluid contact" id="contact">
+      <div class="row">
+        <div class="col">
+         Contact:
+         Vintage Car Hire
+        </div>
+        <div class="row">
+          <div class="col">
+         Address: 23 The Grove, Coburg, VIC, 3058          
+         </div>
+        </div>
+        <div class="row">
+          <div class="col">
+         Phone: XXXX747382          
+         </div>
+        </div>
+        <div class="row">
+          <div class="col">
+         Email: enquiries@vintagecarhire.com.au          
+         </div>
+        </div>
+
+      
+      </div>
+    </div>
+    <!-- end contact section -->
+
+    
+<!-- Back to top link -->
+<a href="#top">Back to top</a>
+
   </main>
+
+  <footer>
+
+    Copyright 2021 HLC Creations
+  </footer>
 
 
 
