@@ -1,5 +1,5 @@
 body {
-  font-family: 'Dosis', sans-serif;;
+  font-family: "Dosis", sans-serif;
 }
 
 .cardimage {
@@ -7,18 +7,30 @@ body {
   height: auto;
   border-radius: 10%;
 }
+.bannerHeading {
+  display: flex;
+  height: 300px;
+  align-content: center;
+  justify-content: center;
+  /* margin-top: 74px; */
+  background-image: url(../images/courtney-cook-MED-pO6Y7JE-unsplash.jpg);
+  background-size: cover;
+}
 
-card {
+.card {
   border-radius: 10%;
 }
 
 .pageTitle {
-  font-family: 'Dosis', sans-serif;
-    font-style: italic;
-    text-align: center;
-    color: rgb(8, 8, 8); 
-    margin: 10px;
-    padding: 10px;
+  font-family: "Dosis", sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: rgb(80, 77, 77);
+  /* margin: 10px;
+  padding: 10px; */
 }
 
 form {
@@ -29,9 +41,7 @@ form {
   margin: 10px;
   max-width: auto;
   height: auto;
-
 }
-
 
 footer {
   text-align: center;
