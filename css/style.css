@@ -16,7 +16,10 @@ card {
   font-family: 'Dosis', sans-serif;
     font-style: italic;
     text-align: center;
+    align-content: center;
     color: rgb(8, 8, 8); 
+    margin: 10px;
+    padding: 10px;
 }
 
 form {
