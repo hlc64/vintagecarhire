@@ -2,22 +2,11 @@ body {
   font-family: 'Dosis', sans-serif;;
 }
 
-.imageContainer {
-  display: flex;
-  width: auto;
+.cardimage {
+  width: 100%;
   height: auto;
   border-radius: 10%;
 }
-
-.cardimage {
-  flex: 
-}
-
-.img1 { flex: 1.4988; }
-.img2 { flex: 1; }
-.img3 { flex: 0.7174; }
-.img4 { flex: 1.4988; }
-
 
 card {
   border-radius: 10%;
@@ -27,7 +16,6 @@ card {
   font-family: 'Dosis', sans-serif;
     font-style: italic;
     text-align: center;
-    align-content: center;
     color: rgb(8, 8, 8); 
     margin: 10px;
     padding: 10px;
